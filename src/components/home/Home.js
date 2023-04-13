@@ -11,8 +11,8 @@ const Home = () => {
             from-[#1FD8B6] to-[#C5018E]
            text-center "
       >
-        make your dream website <br />
-        Stand out in a crowd
+        make your dream <br /> website 
+        Stand out <br />  in a crowd
       </h1>
     </div>
   );
