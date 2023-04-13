@@ -24,9 +24,9 @@ const Offers = () => {
           </div>
         </div>
         <div>
-          <div className="flex p-4">
-            <AiTwotoneStar size={30} className="text-[#56c0c3]" />
-            <div className="px-4">
+          <div className="flex p-4 hover:bg-gradient-to-r from-black to-gray-800 rounded-2xl hover:p-2  w-96">
+            <AiTwotoneStar size={30} className="text-[#56c0c3] " />
+            <div className="px-4  ">
               <h1 className="text-white">Rewards</h1>
               <p className="text-gray-400">
                 The best credit cards offer some 
@@ -34,7 +34,7 @@ const Offers = () => {
               </p>
             </div>
           </div>
-          <div className="flex p-4">
+          <div className="flex p-4 hover:bg-gradient-to-t from-black to-gray-800 rounded-2xl hover:p-2  w-96 ">
             <FiSend size={30} className="text-[#56c0c3]" />
             <div className="px-4">
               {" "}
@@ -45,7 +45,7 @@ const Offers = () => {
               </p>
             </div>
           </div>
-          <div className="flex p-4">
+          <div className="flex p-4 hover:bg-gradient-to-r from-black to-gray-800 rounded-2xl hover:p-2  w-96">
             <BsFillCloudCheckFill size={30} className="text-[#56c0c3]" />
             <div className="px-4">
               {" "}

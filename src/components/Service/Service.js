@@ -12,7 +12,7 @@ const Service = () => {
         </p>
       </div>
       <div className="p-8" >
-        <button className="   bg-gradient-to-t from-[#33BBCF] to-[#A7FCFF] cursor-pointer group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md font-semibold hover:text-white   "> GetStarted </button>
+        <button className="  mb-20 lg:mb-0  bg-gradient-to-t from-[#33BBCF] to-[#A7FCFF] cursor-pointer group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md font-semibold hover:text-white   "> GetStarted </button>
       </div>
       </div>
     </div>

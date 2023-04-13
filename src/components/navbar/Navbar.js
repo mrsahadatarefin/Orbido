@@ -25,7 +25,7 @@ const NavBar = () => {
         
       ];
   return (
-    <div className="px-4 bg-black flex justify-between items-center w-full h-20 text-white sticky 
+    <div className=" px-4 bg-black flex justify-between items-center w-full h-20 text-white sticky 
      top-0 ">
       <div className="mt-5">
         

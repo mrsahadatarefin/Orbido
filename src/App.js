@@ -6,6 +6,7 @@ import Offers from './components/offers/Offers';
 import Billing from './components/billing/Billing';
 import CompanyLogo from './components/CompanyLogo/CompanyLogo';
 import Service from './components/Service/Service';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Billing/>
       <CompanyLogo/>
       <Service/>
+      <Footer/>
       
      
      
