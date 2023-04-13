@@ -14,7 +14,7 @@ const Billing = () => {
           </h1>
           <p className="text-gray-400 text-lg mt-8">
             Elit enim sed massa etiam. Mauris eu adipiscing <br /> ultrices
-            ametodio aenean neque. Fusce ipsum orci <br /> rhoncus aliporttitor
+            ametodio aenean neque. Fusce ipsum  <br /> orci  rhoncus aliporttitor
             integer platea placerat.
           </p>
           <div className="flex mt-8">
