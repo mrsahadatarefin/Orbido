@@ -2,6 +2,9 @@
 import './App.css';
 import NavBar from './components/navbar/Navbar';
 import Home from './components/home/Home';
+import Offers from './components/offers/Offers';
+import Billing from './components/billing/Billing';
+import CompanyLogo from './components/CompanyLogo/CompanyLogo';
 
 
 
@@ -10,6 +13,10 @@ function App() {
     <div >
       <NavBar/>
       <Home/>
+      <Offers/>
+      <Billing/>
+      <CompanyLogo/>
+      
      
      
     </div>
