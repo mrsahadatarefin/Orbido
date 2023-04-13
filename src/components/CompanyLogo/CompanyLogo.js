@@ -25,7 +25,7 @@ const CompanyLogo = () => {
 
 ]
     return (
-        <div className='max-w-[1440px]  m-auto mt-20'>
+        <div className='max-w-[1440px]  m-auto mt-36'>
             <div className=' grid grid-cols-2 lg:grid-cols-4 gap-10 p-4'>
            {
             logos.map(logo =><>
