@@ -9,7 +9,7 @@ import img4 from "../../assets/New folder/Manulife Logo Vector.png";
 import imgzero from "../../assets/New folder/Polygon 2.png";
 import imgzero1 from "../../assets/New folder/Polygon 4.png";
 const Billing = () => {
- const [payment,setPayment]=useState(false)
+ 
  
   return (
     <div className="max-w-[1440px]  m-auto mt-32">
@@ -38,7 +38,7 @@ const Billing = () => {
               </div>
             </div>
             <div className=" ">
-              <button onClick={()=>{setPayment(alert('Great! Your Payment is succesfully.'))}} className="bg-gradient-to-t from-[#33BBCF] to-[#A7FCFF] cursor-pointer group text-black w-fit px-8 py-2 my-2  flex items-center rounded-xl font-semibold hover:text-white ">
+              <button onClick={()=>{alert('Great! Your Payment is succesfully.')}} className="bg-gradient-to-t from-[#33BBCF] to-[#A7FCFF] cursor-pointer group text-black w-fit px-8 py-2 my-2  flex items-center rounded-xl font-semibold hover:text-white ">
                 Make Payment
               </button>
             </div>
