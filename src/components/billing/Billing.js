@@ -12,10 +12,10 @@ const Billing = () => {
  
  
   return (
-    <div className="max-w-[1440px]  m-auto mt-32">
+    <div className="max-w-[1440px]  m-auto  lg:mt-32">
       <div className="grid grid-cols-1 lg:gap-32 lg:grid-cols-2 p-4  ">
         <div>
-        <div className="bg-gradient-to-r from-gray-600 to-gray-800 p-6  w-[227px] h-[216px]  absolute  rounded-md   ml-0 lg:ml-52 z-0 lg:z-10 ">
+        <div className="bg-gradient-to-r from-gray-600 to-gray-800 p-6  lg:w-[227px] lg:h-[216px] block lg:absolute  rounded-md ml-0 lg:ml-52  lG:ml-52  z-10 mb-10 lg:mt-0">
             <div className="flex justify-between">
               <div>
                 <img src={img1} alt="" srcset="" className=" h-[50px]" />
@@ -43,7 +43,7 @@ const Billing = () => {
               </button>
             </div>
           </div>
-          <div className="bg-gradient-to-r from-gray-600 to-black p-6  w-[335px] h-[280px]  rounded-md relative top-0 lg:top-36 ">
+          <div className="bg-gradient-to-r from-gray-600 to-black p-6   w-[335px] h-[280px]  rounded-md block lg:relative  top-0 lg:top-36 ">
             <h1 className="text-2xl text-white font-bold">Last Transaction</h1>
             <div className="flex justify-between">
               <div className="flex pt-4">
